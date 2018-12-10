@@ -12,6 +12,8 @@
 		CA23A71921BE34B400035C80 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23A71821BE34B400035C80 /* ChatVC.swift */; };
 		CA23A71B21BE34CC00035C80 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23A71A21BE34CC00035C80 /* ChannelVC.swift */; };
 		CA23A71D21BE4FEF00035C80 /* GradiantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23A71C21BE4FEF00035C80 /* GradiantView.swift */; };
+		CA23A72021BE5DB200035C80 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23A71F21BE5DB200035C80 /* File.swift */; };
+		CA23A72221BE61F000035C80 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23A72121BE61F000035C80 /* LoginVC.swift */; };
 		CAA8331621BD0E75009DDE17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA8331521BD0E75009DDE17 /* AppDelegate.swift */; };
 		CAA8331B21BD0E75009DDE17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAA8331921BD0E75009DDE17 /* Main.storyboard */; };
 		CAA8331D21BD0E75009DDE17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA8331C21BD0E75009DDE17 /* Assets.xcassets */; };
@@ -28,6 +30,8 @@
 		CA23A71821BE34B400035C80 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		CA23A71A21BE34CC00035C80 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		CA23A71C21BE4FEF00035C80 /* GradiantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradiantView.swift; sourceTree = "<group>"; };
+		CA23A71F21BE5DB200035C80 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		CA23A72121BE61F000035C80 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		CAA8331221BD0E75009DDE17 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA8331521BD0E75009DDE17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAA8331A21BD0E75009DDE17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -71,6 +75,7 @@
 			children = (
 				CA23A71821BE34B400035C80 /* ChatVC.swift */,
 				CA23A71A21BE34CC00035C80 /* ChannelVC.swift */,
+				CA23A72121BE61F000035C80 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -88,6 +93,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		CA23A71E21BE5DA000035C80 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				CA23A71F21BE5DB200035C80 /* File.swift */,
+			);
+			path = Utilites;
 			sourceTree = "<group>";
 		};
 		CAA8330921BD0E75009DDE17 = {
@@ -111,6 +124,7 @@
 		CAA8331421BD0E75009DDE17 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				CA23A71E21BE5DA000035C80 /* Utilites */,
 				CAA8331921BD0E75009DDE17 /* Main.storyboard */,
 				CA23A71521BE346F00035C80 /* Controller */,
 				CA23A71621BE347700035C80 /* View */,
@@ -253,6 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA23A71D21BE4FEF00035C80 /* GradiantView.swift in Sources */,
+				CA23A72021BE5DB200035C80 /* File.swift in Sources */,
+				CA23A72221BE61F000035C80 /* LoginVC.swift in Sources */,
 				CA23A71B21BE34CC00035C80 /* ChannelVC.swift in Sources */,
 				CA23A71921BE34B400035C80 /* ChatVC.swift in Sources */,
 				CAA8331621BD0E75009DDE17 /* AppDelegate.swift in Sources */,
